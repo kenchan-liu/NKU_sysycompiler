@@ -1,0 +1,18 @@
+int y;
+int q(){
+    return y;
+}
+int main()
+{
+    int a;
+    int b;
+    int min;
+    a = 1 + 2 + 3;
+    a =q();
+    b = 2 + 3 + 4;
+    if (a < b)
+        min = a;
+    else
+        min = b;
+    return min;
+}
